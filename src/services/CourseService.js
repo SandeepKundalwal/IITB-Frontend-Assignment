@@ -14,6 +14,6 @@ export const createCourse = (courseData) => {
     return axios.post(`${API_URL}/courses`, courseData);
 };
 
-export const deleteCourse = (courseId) => {
-    return axios.delete(`${API_URL}/courses/${courseId}`);
+export const deleteCourse = (id) => {
+    return axios.delete(`${API_URL}/courses/${id}`);
 };
